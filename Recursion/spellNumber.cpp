@@ -6,9 +6,7 @@ using namespace std;
 
 
 void spell(int n ,string str[]){
-    if(n == 0) return;
-
-    
+    if(n == 0) return;  
    spell(n/10,str);
    LOG(str[n%10]);
 
